@@ -1,0 +1,50 @@
+{
+  "pages":[
+    "pages/movie/movie",
+    "pages/music/music",
+    "pages/index/index",
+    "pages/logs/logs",
+    
+    "pages/book/book",
+    "pages/mine/mine",
+    "pages/bookDetail/bookDetail"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#d81e06",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"#fff"
+  },
+  "tabBar": {
+    "color":"#707070",
+    "selectedColor":"#d81e06",
+    "backgroundColor":"#f5f5f5",
+    "borderStyle":"black",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath":"./public/image/icon/home.png",
+ "selectedIconPath":"./public/image/icon/home_selected.png"
+    }, {
+      "pagePath": "pages/music/music",
+      "text": "音乐",
+      "iconPath":"./public/image/icon/music.png",
+ "selectedIconPath":"./public/image/icon/music_selected.png"
+    }, {
+      "pagePath": "pages/movie/movie",
+      "text": "电影",
+      "iconPath":"./public/image/icon/movie.png",
+ "selectedIconPath":"./public/image/icon/movie_selected.png"
+    }, {
+      "pagePath":"pages/book/book",
+      "text": "图书",
+      "iconPath":"./public/image/icon/book.png",
+ "selectedIconPath":"./public/image/icon/book_selected.png"
+    }, {
+      "pagePath": "pages/mine/mine",
+      "text": "个人中心",
+      "iconPath":"./public/image/icon/mine.png",
+ "selectedIconPath":"./public/image/icon/mine_selected.png"
+    }]
+  }
+}

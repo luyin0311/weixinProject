@@ -1,0 +1,8 @@
+<!--pages/movie/movie.wxml-->
+<swiper indicator-dots="true"
+  autoplay="true" interval="3000" duration="500" circular="true">
+ 
+    <swiper-item wx:for="{{imgUrls}}" wx:key="{{index}}">
+      <image src="{{item}}" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+</swiper>

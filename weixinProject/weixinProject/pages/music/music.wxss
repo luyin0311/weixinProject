@@ -1,0 +1,76 @@
+/* pages/music/music.wxss */
+.musicImage{
+    position: relative;
+}
+.musicImage .lrc{
+    position: absolute;
+    left: 0px;
+    bottom: 100rpx;
+    color:aqua;
+    width: 750rpx;
+    text-align: center;
+}
+.musicImage .lrc text{
+    display: inline-block;
+}
+.musicImage progress{
+    width: 500rpx;
+    float: left;
+    margin-top: 20rpx;
+    margin-left: 10rpx;
+    
+}
+.musicImage .schedule{
+    overflow: hidden;
+    display: block;
+    position: absolute;
+    bottom: 20rpx;
+}
+.musicImage .schedule text{
+    float: left;
+    font: 25rpx/40rpx "微软雅黑";
+    color: #fff;
+    margin-left: 10rpx;
+    
+}
+
+.musicImage .playBtn{
+    width: 80rpx;
+    height: 80rpx;
+    float: right;
+    margin-top: -90rpx; 
+    margin-right: 10rpx;
+}
+.musicImage .background{
+    width: 750rpx;
+    height: 200px;
+    display: block;
+}
+.musicImage audio{
+  display: block;
+  height:100rpx;
+  width: 100rpx;
+  margin-top: -100rpx; 
+  float: right;
+}
+.music{
+   overflow: hidden;
+   margin: 20rpx 50rpx;
+   border-bottom: 1px solid #707070;
+}
+.musicPoster{
+    float: left;
+}
+.musicPoster image{
+    width: 100rpx;
+    height: 100rpx;
+}
+.musicDetail{
+    float: left;
+    font: 25rpx/40rpx "微软雅黑";
+    padding-left: 30rpx;
+    padding-top: 10rpx;
+}
+.musicName{
+
+}
