@@ -1,0 +1,13 @@
+<!--pages/movieDetail/movieDetail.wxml-->
+<view class="section tc">
+  <video id="myVideo" src="{{src}}" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
+  <view class="btn-area">
+    <input bindblur="bindInputBlur"/>
+    <button bindtap="bindSendDanmu">发送弹幕</button>
+  </view>
+</view>
+<view class="detail">
+    <view class="name">MV:{{name}}</view>
+    <view class="actor">歌手:{{actor}}</view>
+    <view class="detailintro">{{detailintro}}</view>
+</view>

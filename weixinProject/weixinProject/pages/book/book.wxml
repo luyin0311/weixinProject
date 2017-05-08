@@ -1,2 +1,15 @@
 <!--pages/book/book.wxml-->
-<text>pages/book/book.wxml</text>
+<scroll-view scroll-y="true"
+ style="height: {{scrollHeight}}px;" bindscrolltoupper="refresh" bindscrolltolower="loadMore" bindscroll="scroll">
+<view wx:for="{{list}}" wx:key="{{index}}" class="list">
+ <view>{{item.name}}</view>
+    <image src="{{item.pic_url}}" bindtap="showDetail" data-id="{{item.id}}"></image>
+   <view>{{item.description}}</view>
+</view>  
+</scroll-view>
+<view class="body-view">
+    <loading hidden="{{hidden}}" bindchange="loadChange">
+        数据加载中....
+    </loading>
+</view>
+

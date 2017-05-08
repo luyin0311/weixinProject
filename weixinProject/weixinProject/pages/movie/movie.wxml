@@ -6,3 +6,22 @@
       <image src="{{item}}" class="slide-image" width="355" height="150"/>
     </swiper-item>
 </swiper>
+
+<scroll-view class="scrollList" scroll-y="true" style="height: {{scrollHeight}}px;">
+<view class="contain">
+    <view class="movieItem" wx:for="{{movieList}}" wx:key="index" 
+    bindtap="showDetail" 
+    id="{{item.id}}"
+    data-actor='{{item.actor}}'
+    data-name='{{item.name}}'
+    data-detailIntro='{{item.detailIntro}}'
+    data-src='{{item.src}}'
+    >
+      <image src="{{item.imgSrc}}"></image>
+      <text>{{item.name}}</text>
+      <text>{{item.actor}}</text>
+    </view>
+</view>
+</scroll-view>
+
+

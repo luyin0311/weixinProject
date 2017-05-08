@@ -1,1 +1,22 @@
 /* pages/movie/movie.wxss */
+.scrollList{
+    margin: 40rpx;
+}
+.scrollList .contain{
+    display: flex;  
+    flex-wrap: wrap;
+}
+.movieItem{
+    width: 170rpx;
+    height: 300rpx;
+    margin-right: 80rpx;
+}
+.movieItem image{
+    width: 170rpx;
+    height: 170rpx;
+}
+.movieItem text{
+    display: block;
+    text-align: center;
+    font: 30rpx/30rpx "微软雅黑";
+}

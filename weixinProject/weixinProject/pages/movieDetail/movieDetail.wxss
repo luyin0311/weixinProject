@@ -1,0 +1,4 @@
+/* pages/movieDetail/movieDetail.wxss */
+#myVideo{
+    width: 750rpx;
+}

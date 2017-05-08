@@ -1,7 +1,7 @@
 <!--pages/mine/mine.wxml-->
 
 <view class="section tc">
-  <video id="myVideo" src="http://cache.tv.qq.com/qqplayerout.swf?vid=o013075230b" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
+  <video id="myVideo" src="http://www.maodan.online/movie/yougeren.tmp" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
   <view class="btn-area">
     <input bindblur="bindInputBlur"/>
     <button bindtap="bindSendDanmu">发送弹幕</button>
